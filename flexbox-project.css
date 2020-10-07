@@ -34,8 +34,32 @@ body {
   }
 }
 
+/* phase 2 */
 
+.team__container {
+  background-color: #F4F5F7;
+  padding: 32px;
+}
 
+.team__info {
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+}
+
+.team__info > h1 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.team__info a {
+  color: #172B4D;
+  line-height: 20px;
+  font-weight: normal;
+}
 
 
 
