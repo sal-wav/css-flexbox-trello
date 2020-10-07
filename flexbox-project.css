@@ -1,13 +1,38 @@
 /* Write your CSS here. */
 
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
 
+.header-nav__container {
+  background-color: #026AA7;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
 
+.header-nav__group {
+  display: flex;
+}
 
+.header-nav__link {
+  padding: 2px 0px 2px 0px;
+}
 
+#alerts {
+  background-color: #cf513d;
+}
 
-
-
-
+@media screen and (max-width: 730px) {
+  .boards-label, input[type = search] {
+    display: none;
+  }
+}
 
 
 
